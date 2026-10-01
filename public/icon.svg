@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E40AF" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#93C5FD" />
+    </linearGradient>
+  </defs>
+  <!-- Background with smooth rounded rectangle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Subtle inner border -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="4" />
+
+  <!-- Stylized Rupee + Forge Graph Icon -->
+  <g transform="translate(100, 100)" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Graph bar blocks -->
+    <rect x="20" y="160" width="50" height="120" rx="10" fill="#FFFFFF" fill-opacity="0.25" stroke="#FFFFFF" stroke-width="8" />
+    <rect x="90" y="100" width="50" height="180" rx="10" fill="#FFFFFF" fill-opacity="0.45" stroke="#FFFFFF" stroke-width="8" />
+    <rect x="160" y="40" width="50" height="240" rx="10" fill="url(#accentGrad)" stroke="#FFFFFF" stroke-width="8" />
+    
+    <!-- Upward Trend Arrow -->
+    <path d="M 30 140 L 110 80 L 185 20 L 250 20" stroke="#FBBF24" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="230 10 260 20 250 50" fill="none" stroke="#FBBF24" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Rupee Symbol glyph -->
+    <g transform="translate(140, 120)" stroke="#FFFFFF" stroke-width="12">
+      <line x1="10" y1="20" x2="80" y2="20" />
+      <line x1="10" y1="45" x2="80" y2="45" />
+      <path d="M 25 20 L 25 90 C 55 90 65 75 65 55 C 65 35 55 20 25 20 Z" />
+      <line x1="25" y1="75" x2="75" y2="135" />
+    </g>
+  </g>
+</svg>

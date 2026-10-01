@@ -1,0 +1,6 @@
+{
+  "name": "ExpenseForge - Personal Expense Tracker & Habit Planner",
+  "description": "Precision personal expense tracking with weekly matrix, data visualizations, CSV export, ₹21 lifetime unlock, cloud sync, and private family & friend spending comparison circles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
